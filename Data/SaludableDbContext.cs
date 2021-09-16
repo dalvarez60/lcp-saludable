@@ -30,5 +30,6 @@ namespace SaludableWebAPI.Data
         public virtual DbSet<TipoTratamientoData> TipoTratamiento { get; set; }
         public virtual DbSet<TipoComidaData> TipoComida { get; set; }
         public virtual DbSet<TipoBebidaData> TipoBebida { get; set; }
+        public virtual DbSet<PacienteData> Paciente { get; set; }
     }
 }
